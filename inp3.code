@@ -1,0 +1,56 @@
+a{
+    int k;
+    double i;
+
+    s @ int d {
+        double f = 100.8;
+        write f;
+        return f;
+    };
+
+    f @ int n {
+        int ans = 0;
+        check( n == 0)
+        {
+            ans = 0;
+        } otherwise check( n == 1)
+        {
+            ans = 1;
+        }otherwise check(n == 2){
+            ans = 1;
+        }otherwise {
+            ans = a.c.f(n-1)+a.c.f(n-2);
+        }
+
+        return ans;
+    };
+
+
+} $
+___
+
+ccb @ double rsd , int ds {
+    int x = 19.5;
+    write x;
+    write ds;
+    loop(int y=0 ; y++ ; y < 5)
+    {
+        cout(y*2);
+    }
+    write(rsd);
+    return 0;
+}
+
+... 
+
+main(){
+    
+    int l;
+    cin l;
+
+    c = new a();
+
+    cout a.c.f(l);
+
+    return 0;
+}

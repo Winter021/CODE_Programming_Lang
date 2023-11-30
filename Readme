@@ -1,0 +1,43 @@
+
+
+***How to run the code:
+1. Open command prompt in the folder where all these files are present.
+2. bison -dy yacc.y
+3. flex lexer.l y.tab.h
+4. gcc lex.yy.c y.tab.c
+5. a.exe
+6. Type in the input test file name you want to run.
+
+
+
+
+
+***Features and capabilities of our code:
+
+1.  Can perform all the basic & advanced arithmetic operations and can evaluate expressions (Eg: x*y+z/w).
+2.  Can perform boolean operations and assignment operation (Eg: x&y|z, x>5, y<=z+t, x= 5).
+3.  Has int, float datatypes and can be declared using int , double respectively (double/int x ...).
+    If nothing is mentioned it is taken as int (i.e. x = 5, here x is considered as integer).
+4.  Can take multiple inputs from the user using cin (Eg: cin x, y, z;).
+5.  Can print multiple numerical outputs using cout (Eg: cout x, y*5, z*t+l).
+6.  Can print a string and an numerical output using printf (Eg: printf("Value:", x+y*z)).
+7.  Can print a single numerical output using write (Eg: write x;).
+8.  Can handle single line and multi-line comments ( "<<Popl" == single line , "<*Hello*>" == multi-line)
+9.  Has the following control structures:
+    i.    check-otherwise , nested check-otherwise(Similar to if-else in cpp).
+    ii.   until (Similar to while loop in cpp). 
+    iii.  loop  (Similar to for loop in cpp).
+10. Can run multiple functions. The features of functions include:
+    i.    Can take arguments (if it has parameters) metioned from the calling function.
+    ii.   Execute all the operations in its body (mentioned in points 1 to 9).
+    iii.  Can return a value using return statement, to the calling function.
+    iv.   Recursive functions work too.
+11. Can have multiple classes. Features of classes include:
+    i.    Can have member variables.
+    ii.   Can have member methods/functions which work smilar to normal functions mentioned above.
+    iii.  Each class can have multiple objects created.
+    iv.   Member variables can be intitialized while creating the object.
+    v.    The objects created can access the member variables and member methods.
+    vi.   Member methods can access member variables and change them.
+    vii.  Member methods can be recursive too.
+

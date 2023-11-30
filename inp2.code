@@ -1,0 +1,48 @@
+a{
+    int k;
+    double i;
+
+    b @ int d {
+        double f = 100.8;
+        write f;
+        return f;
+    };
+
+    ba @ double gr {
+        double e = 10.55858;
+        write e;
+        k = 10;
+        write k;
+        write gr;
+        return e*gr;
+    };
+} $
+___
+
+
+fib @ int n {
+    int ans = 0;
+    check( n == 0)
+    {
+        ans = 0;
+    } otherwise check( n == 1)
+    {
+        ans = 1;
+    }otherwise check(n == 2){
+        ans = 1;
+    }otherwise {
+        ans = fib(n-1)+fib(n-2);
+    }
+
+    return ans;
+}
+
+... 
+
+main(){
+    int n;
+    cin  n;
+    cout fib(n);
+
+    return 0;
+}

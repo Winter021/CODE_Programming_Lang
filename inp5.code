@@ -1,0 +1,28 @@
+
+___
+
+pw @ int a, int b {
+    int ans = 1;
+    until( b > 0){
+        check(b&1){
+            ans = ans*a;
+        }
+        cout ans, a, b;
+        a *= a;
+        b = b/2;
+    }
+
+    return ans;
+}
+
+
+... 
+
+main(){
+    int x;
+    int y;
+    cin x, y;
+
+    cout(pw(x, y));
+    return 0;
+}
